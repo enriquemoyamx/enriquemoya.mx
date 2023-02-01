@@ -11,3 +11,11 @@ p {
     font-size: 20px;
     color: #fff;
 }
+
+a:visited {
+    color: rgb(156, 211, 235);
+}
+
+a {
+    color: #fff;
+}
