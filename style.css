@@ -1,7 +1,13 @@
 body {
-    background-color: rgb(101, 119, 134);
+    background-color: rgb(46, 70, 89);
 }
 
 h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    font-size: 20px;
     color: #fff;
 }
