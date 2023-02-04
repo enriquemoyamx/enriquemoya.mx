@@ -1,16 +1,85 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enrique Moya</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Enrique Moya</h1>
-    <p>Hello, this is going to be my portfolio website.</p>
-    <p>I'm still not going to update anything, but I just wanted to make sure everything is working fine.</p>
-    <p>You can see <a href="/projects" target="_blank" rel="noopener noreferrer">all my projects</a> using simple HTML and CSS</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Enrique Moya" />
+    <meta
+      name="description"
+      content="Facebook landing page replica used for education purposes with the idea of understanding how HTML and CSS are applied on them. This is NOT the official website."
+    />
+    <meta name="color-scheme" content="light" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replica - Facebook Landing Page</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="logo.svg" alt="Facebook logo" class="header__logo" />
+      </header>
+      <main class="main">
+        <form class="form">
+          <label for="email-phone" class="form__label"></label>
+          <input
+            type="email"
+            name="email-phone"
+            id="email-phone"
+            class="form__input"
+            placeholder="Mobile number or email"
+            required
+          />
+          <label for="password" class="form__label"></label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form__input"
+            placeholder="Password"
+            required
+          />
+          <label for="log-in" class="form__label"></label>
+          <input type="submit" value="Log-in" class="button form__button" />
+        </form>
+        <p class="forgot-password">Forgot password?</p>
+        <p class="or">or</p>
+        <button class="button create-account">Create new account</button>
+      </main>
+      <footer class="footer">
+        <nav class="footer__lang-nav">
+          <ul class="lang__list">
+            <li class="lang__list-item selected">
+              <a href="">English (US)</a>
+            </li>
+            <li class="lang__list-item">
+              <a href="#" lang="pt-br">Português (Brasil)</a>
+            </li>
+            <li class="lang__list-item"><a href="#" lang="de">Deutsch</a></li>
+            <li class="lang__list-item">
+              <a href="#" lang="ar-eg">العربية</a>
+            </li>
+          </ul>
+          <ul class="lang__list">
+            <li class="lang__list-item">
+              <a href="#" lang="es-mx">Español</a>
+            </li>
+            <li class="lang__list-item">
+              <a href="#" lang="fr">Français (France)</a>
+            </li>
+            <li class="lang__list-item"><a href="#" lang="it">Italiano</a></li>
+            <li class="lang__list-item"><a href="#" lang="jp">日本</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__main-nav">
+          <ul class="main__list">
+            <li class="main__list-item"><a href="">About</a></li>
+            <li class="main__list-item help"><a href="">Help</a></li>
+            <li class="main__list-item"><a href="">More</a></li>
+          </ul>
+        </nav>
+        <section class="footer__copyright">Meta © 2023</section>
+      </footer>
+    </div>
+  </body>
 </html>
