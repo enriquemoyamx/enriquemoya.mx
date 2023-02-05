@@ -16,36 +16,43 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <img src="logo.svg" alt="Facebook logo" class="header__logo" />
-      </header>
-      <main class="main">
-        <form class="form">
-          <label for="email-phone" class="form__label"></label>
-          <input
-            type="email"
-            name="email-phone"
-            id="email-phone"
-            class="form__input"
-            placeholder="Mobile number or email"
-            required
-          />
-          <label for="password" class="form__label"></label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            class="form__input"
-            placeholder="Password"
-            required
-          />
-          <label for="log-in" class="form__label"></label>
-          <input type="submit" value="Log-in" class="button form__button" />
-        </form>
-        <p class="forgot-password">Forgot password?</p>
-        <p class="or">or</p>
-        <button class="button create-account">Create new account</button>
-      </main>
+      <div class="container__grid">
+        <header class="header">
+          <img src="logo.svg" alt="Facebook logo" class="header__logo" />
+          <h2
+            class="header__banner header__banner--hidden header__banner--visible"
+          >
+            Connect with friends and the world around you on Facebook.
+          </h2>
+        </header>
+        <main class="main">
+          <form class="form">
+            <label for="email-phone" class="form__label"></label>
+            <input
+              type="email"
+              name="email-phone"
+              id="email-phone"
+              class="form__input input-email"
+              placeholder="Mobile number or email"
+              required
+            />
+            <label for="password" class="form__label"></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form__input"
+              placeholder="Password"
+              required
+            />
+            <label for="log-in" class="form__label"></label>
+            <input type="submit" value="Log In" class="button form__button" />
+          </form>
+          <p class="forgot-password"><a href="">Forgot password?</a></p>
+          <p class="or">or</p>
+          <button class="button create-account">Create new account</button>
+        </main>
+      </div>
       <footer class="footer">
         <nav class="footer__lang-nav">
           <ul class="lang__list">
