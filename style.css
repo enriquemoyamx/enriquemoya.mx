@@ -78,9 +78,14 @@ p {
 }
 
 .form__button {
-  background: var(--color-blue);
+  background-color: var(--color-blue);
   color: #fff;
   font-size: var(--font-m);
+}
+
+.form__button:hover {
+  background-color: #166fe5;
+  transition: background-color 250ms ease-in;
 }
 
 .forgot-password {
@@ -96,6 +101,10 @@ p {
 
 a:visited {
   color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .or {
@@ -126,8 +135,13 @@ a:visited {
   width: 80%;
   display: block;
   margin: 0 auto 5rem;
-  background: var(--color-green);
+  background-color: var(--color-green);
   color: #fff;
+}
+
+.create-account:hover {
+  background-color: #36a420;
+  transition: background-color 250ms ease-in;
 }
 
 /* Footer */
@@ -150,6 +164,10 @@ a:visited {
   text-decoration: none;
   color: var(--color-LBlue);
   font-size: var(--font-xs);
+}
+
+.lang__list-item:hover {
+  text-decoration: underline;
 }
 
 .selected {
@@ -233,6 +251,18 @@ a:visited {
     background-color: white;
     padding: 1em;
     border-radius: 0.25rem;
+  }
+
+  .form__input {
+    background: white;
+    border: 1px solid #dddfe2;
+  }
+
+  .form__input:focus-visible {
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1b74e4;
+    border-color: #1b74e4;
+    outline: none;
   }
 
   .input-email {
