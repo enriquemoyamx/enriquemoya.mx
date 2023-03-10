@@ -1,17 +1,28 @@
 h1 {
   font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  color: #1c1c1c;
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  padding: 1em;
 }
 
 a {
   font-size: 20px;
-  color: #1c1c1c;
   text-decoration: none;
+  color: #1c1c1c;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .background {
@@ -20,14 +31,17 @@ a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 100px;
-  height: 100px;
+  width: fit-content;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
+  border-radius: 0.5em;
 }
 
 .background:hover {
-  background-color: rgb(98, 165, 219);
-  transition: background-color 400ms ease;
+  background-color: #1c1c1c;
+  transition: color 1000ms ease, background-color 500ms ease;
+  color: lightblue;
 }
