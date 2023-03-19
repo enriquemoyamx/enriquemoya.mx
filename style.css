@@ -2,27 +2,26 @@ h1 {
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-weight: 500;
-  color: #1c1c1c;
-}
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-  padding: 1em;
-}
-
-a {
-  font-size: 20px;
-  text-decoration: none;
-  color: #1c1c1c;
+  font-weight: lighter;
+  color: #ebebeb;
+  background: #1c1c1c;
 }
 
 .links {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1c1c1c;
 }
 
 .background {
