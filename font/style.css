@@ -1,0 +1,12 @@
+:root {
+  font-size: 21px;
+}
+
+h1 {
+  font-family: Workbench;
+}
+
+@font-face {
+  font-family: Workbench;
+  src: local(Workbench), url(Workbench-Regular.ttf) format(truetype);
+}
