@@ -8,5 +8,7 @@ h1 {
 
 @font-face {
   font-family: Workbench;
-  src: local(Workbench), url(Workbench-Regular.ttf) format(truetype);
+  src: local(Workbench), url(Workbench-Regular.woff2) format(WOFF2);
+  font-style: normal;
+  font-weight: normal;
 }
